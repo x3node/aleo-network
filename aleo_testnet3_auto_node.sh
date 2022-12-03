@@ -154,7 +154,7 @@ run_prover(){
 
         screen -x -S ${ScreenName} -p 0 -X stuff "${cmd}"
         screen -x -S ${ScreenName} -p 0 -X stuff $'\n'
-        echo "client node has started in screen, run command 5 to check the status"
+        echo "client node has started in screen, run command 4 to check the status"
 }
 
 echo && echo -e " 
