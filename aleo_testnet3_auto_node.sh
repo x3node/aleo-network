@@ -9,6 +9,8 @@
 # Run node:
 # cd ~
 # bash aleo_testnet3_auto_node.sh
+#
+# To find or edit private key here: /root/my_aleo_key.txt
 #------------------------------------------------
 
 Workspace=/root/aleo-prover
