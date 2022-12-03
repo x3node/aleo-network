@@ -1,6 +1,11 @@
 #!/bin/bash
 # aleo testnet3 
 # Follow twitter: https://twitter.com/gaszlla
+#
+# -------- Run the following command-------------
+# sudo su
+# cd ~ && wget -O /root/aleo_testnet3_auto_node.sh https://raw.githubusercontent.com/x3node/aleo-network/main/aleo_testnet3_auto_node.sh && chmod +x aleo_testnet3_auto_node.sh
+#------------------------------------------------
 
 Workspace=/root/aleo-prover
 ScreenName=aleo
