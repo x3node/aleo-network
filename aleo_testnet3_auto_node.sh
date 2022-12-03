@@ -5,6 +5,9 @@
 # -------- Run the following command-------------
 # sudo su
 # cd ~ && wget -O /root/aleo_testnet3_auto_node.sh https://raw.githubusercontent.com/x3node/aleo-network/main/aleo_testnet3_auto_node.sh && chmod +x aleo_testnet3_auto_node.sh
+# 
+# Run node:
+# cd ~
 # bash aleo_testnet3_auto_node.sh
 #------------------------------------------------
 
@@ -140,7 +143,7 @@ run_prover(){
 	cd ${Workspace}
 
 	# Check if screen running
-        has_screen && echo "executing command 5, go into screen" && exit 1
+        has_screen && echo "executing command 4, go into screen" && exit 1
 	# check if private key exists
         has_private_key || exit 1
 
